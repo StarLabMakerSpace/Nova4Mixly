@@ -1,7 +1,9 @@
 # Nova4Mixly
-Nova library for Mixly
 
 ##Nova
+
+![image](https://github.com/StarLabMakeSpace/Nova4Mixly/blob/master/blockly/media/nova/logo.png)
+
 Nova is an open source electronic building blocks，Cooperate with laser cutting. Nova help us to make things more easily.
 
 Nova是一个开源的电子积木集合，配合激光切割使用。Nova丰富的电子模块和结构件，能帮助各个年龄段的学生、老师、设计师、工程师快速实现创意的同时带来更好的拼插体验。
@@ -22,5 +24,10 @@ Mixly 是北京师范大学教育学部创客教育实验室开发的一款图�
 [Mixly 源代码](https://github.com/xbed/Mixly_Arduino)
 
 ---------------------------------------------------------------------------------------------------------------------------------------
-#[How To Use](https://github.com/StarLabMakeSpace/Nova4Mixly/wiki)
-#[使用说明](https://github.com/StarLabMakeSpace/Nova4Mixly/wiki)
+[How To Use](https://github.com/StarLabMakeSpace/Nova4Mixly/wiki)
+
+[使用说明](https://github.com/StarLabMakeSpace/Nova4Mixly/wiki)
+
+[论坛](http://www.geek-workshop.com/forum-107-1.html)
+
+[淘宝店](https://starlab.taobao.com/)
