@@ -2,7 +2,7 @@
 
 'use strict';
 
-goog.provide('Blockly.Msg.zh.hans');
+goog.provide('Blockly.Msg.zh.hant');
 
 goog.require('Blockly.Msg');
 
@@ -10,6 +10,7 @@ Blockly.Msg.ADD_COMMENT = "添加注釋";
 Blockly.Msg.AUTH = "請授權這個應用程序以保存您的作品並共亯。";
 Blockly.Msg.CHANGE_VALUE_TITLE = "更改值：";
 Blockly.Msg.CHAT = "通過在此框輸入與您的合作者溝通！";
+Blockly.Msg.CLEAN_UP = "清理塊"; 
 Blockly.Msg.COLLAPSE_ALL = "折疊塊";
 Blockly.Msg.COLLAPSE_BLOCK = "折疊塊";
 Blockly.Msg.COLOUR_BLEND_COLOUR1 = "顏色1";
@@ -127,7 +128,7 @@ Blockly.Msg.LISTS_INLIST ="在數組中";
 Blockly.Msg.LISTS_IS_EMPTY_HELPURL ="https://github.com/google/blockly/wiki/Lists#is-empty";// untranslated
 Blockly.Msg.LISTS_IS_EMPTY_TITLE ="%1是空的";
 Blockly.Msg.LISTS_LENGTH_HELPURL ="https://github.com/google/blockly/wiki/Lists#length-of";// untranslated
-Blockly.Msg.LISTS_LENGTH_TITLE ="%1的長度";
+Blockly.Msg.LISTS_LENGTH_TITLE ="獲取長度";
 Blockly.Msg.LISTS_LENGTH_TOOLTIP ="返回數組的長度。";
 Blockly.Msg.LISTS_REPEAT_HELPURL ="https://github.com/google/blockly/wiki/Lists#create-list-with";// untranslated
 Blockly.Msg.LISTS_REPEAT_TITLE ="建立數組使用項%1重複%2次";
@@ -420,9 +421,9 @@ Blockly.LKL_DIGITALWRITE_PIN='數位輸出管脚#';
 Blockly.LKL_DIGITALREAD_PIN='數位輸入管脚#';
 Blockly.LKL_ANALOGWRITE_PIN='類比輸出管脚#';
 Blockly.LKL_ANALOGREAD_PIN='類比輸入管脚#';
-Blockly.LKL_SERIAL_PRINT='串口列印';
-Blockly.LKL_SERIAL_PRINTLN='串口列印（自動換行）';
-Blockly.LKL_SERIAL_PRINT_HEX='串口列印（16進制/自動換行）';
+Blockly.LKL_SERIAL_PRINT='打印';
+Blockly.LKL_SERIAL_PRINTLN='打印（自動換行）';
+Blockly.LKL_SERIAL_PRINT_HEX='打印（16進制/自動換行）';
 Blockly.LKL_STEP='步長為';
 Blockly.LKL_TONE_PIN='播放聲音管脚#';
 Blockly.LKL_FREQUENCY='頻率';
@@ -472,7 +473,8 @@ Blockly.LANG_MATH_INT = '整數';
 Blockly.LANG_MATH_LONG = '整數';
 Blockly.LANG_MATH_FLOAT = '小數';
 Blockly.LANG_MATH_BOOLEAN = '布林';
-Blockly.LANG_MATH_STRING = '字串';
+Blockly.LANG_MATH_CHAR = '字符';
+Blockly.LANG_MATH_STRING = '字符串';
 Blockly.LANG_LISTS_GET_INDEX_INPUT_AT = '獲取第';
 Blockly.LANG_LISTS_GET_INDEX_INPUT_IN_LIST = '項（在數組';
 Blockly.LANG_LISTS_GET_INDEX_TOOLTIP = '返回數組中指定位置的值。';
@@ -525,9 +527,9 @@ Blockly.LKL_IR_RECEIVE_YES='有訊號';
 Blockly.LKL_IR_RECEIVE_NO='無訊號';
 Blockly.LANG_VARIABLES_SET_TITLE='賦值為';
 Blockly.LKL_TEXT_JOIN='連接';
-Blockly.LKL_SERIAL_AVAILABLE='串口有數據可讀嗎？';
-Blockly.LKL_SERIAL_READSTR='讀取串口（返回字串）';
-Blockly.LKL_SERIAL_READ='讀取串口';
+Blockly.LKL_SERIAL_AVAILABLE='有數據可讀嗎？';
+Blockly.LKL_SERIAL_READSTR='讀取字符串';
+Blockly.LKL_SERIAL_READ='讀取';
 Blockly.LKL_IR_RECIEVE_TOOLTIP='在接收到紅外訊號時進行用戶自定義的處理。';
 Blockly.LKL_IR_SEND_NEC_TOOLTIP='發射指定類型的紅外數據';
 Blockly.LKL_IR_RECIEVE_RAW_TOOLTIP='在接收到紅外訊號時以RAW格式列印出紅外數據。';
@@ -737,9 +739,15 @@ Blockly.LUXE_SPEED='速度為';
 Blockly.LUXE_DIR='方向為';
 Blockly.LUXE_LED_ON='亮';
 Blockly.LUXE_LED_OFF='滅';
-Blockly.LUXE_MOTOR_FORWARD='正轉';
-Blockly.LUXE_MOTOR_REVERSE='反轉';
-
+Blockly.LUXE_MOTOR_FORWARD='順時針';
+Blockly.LUXE_MOTOR_REVERSE='逆時針';
+Blockly.LUXE_LED_CHANGE='轉換狀態';
+Blockly.LUXE_MOTOR_CHANGE='改變方向';
+Blockly.LUXE_MOTOR_STOP='停止';
+Blockly.LUXE_SPEAKER_PLAYSOUND='播放聲音';
+Blockly.LUXE_SPEANER_NOSOUND='停止播放聲音';
+Blockly.LUXE_SPEAKER_FREQUENCY='頻率';
+Blockly.LUXE_SPEAKER_DURATION='持續時間';
 
 //-----------------NOVA---------------------------------
 Blockly.LKL_NOVA_PORT = '端口';
@@ -806,3 +814,20 @@ Blockly.LKL_NOVA_BLUETOOTH = '藍牙';
 Blockly.LKL_NOVA_BLUETOOTH_AVAILABLE = '有數據可讀？';
 Blockly.LKL_NOVA_BLUETOOTH_READ_STR = '讀取數據（返回字符串）';
 Blockly.LKL_NOVA_BLUETOOTH_READ_NUM = '讀取數據（返回數字）';
+
+//spi
+Blockly.TO_SPI_SLAVE_PIN='向SPI從機#';
+Blockly.SPI_TRANSFER='傳輸';
+
+Blockly.LKL_SERIAL_BEGIN='波特率';
+
+//stepper
+Blockly.LKL_STEPPER='步進電機';
+Blockly.LKL_STEPPER_SETUP_STEPPER='初始化步進電機';
+Blockly.LKL_STEPPER_PIN1='管腳1#';
+Blockly.LKL_STEPPER_PIN2='管腳2#';
+Blockly.LKL_STEPPER_PIN3='管腳3#';
+Blockly.LKL_STEPPER_PIN4='管腳4#';
+Blockly.LKL_STEPSPERREVOLUTION='每轉步數';
+Blockly.LKL_STEPPER_SET_SPEED='設置轉速';
+Blockly.LKL_STEPPER_STEP='移動步數';
